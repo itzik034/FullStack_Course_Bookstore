@@ -19,6 +19,7 @@ body {
     max-width: 95%;
     box-sizing: border-box;
     overflow: auto;
+    margin-top: 20px;
 }
 
 .images > img {
