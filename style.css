@@ -6,8 +6,22 @@ body {
     height: 100vh;
     flex-direction: column;
     overflow-y: auto;
+    margin: 0;
+}
+
+.images {
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #ccc;
+    display: flex;
+    gap: 10px;
+    max-width: 95%;
+    box-sizing: border-box;
+    overflow: auto;
 }
 
 .images > img {
     max-width: 200px;
+    object-fit: contain;
 }
