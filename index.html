@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Store</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <h1>Book Store</h1>
@@ -16,6 +16,12 @@
         <img src="images/Orange.webp" />
         <img src="images/Pizza.jpg" />
         <img src="images/Sushi.jpg" />
+    </div>
+
+    <div class="vat">
+        <label>Enter a price to get it with vat added</label>
+        <input type="number" id="amount">
+        <span id="vatCalc"></span>
     </div>
 </body>
 </html>
