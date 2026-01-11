@@ -7,3 +7,7 @@ body {
     flex-direction: column;
     overflow-y: auto;
 }
+
+.images > img {
+    max-width: 200px;
+}
