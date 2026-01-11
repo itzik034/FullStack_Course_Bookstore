@@ -8,6 +8,7 @@ body {
     overflow-y: auto;
     margin: 0;
     font-family: 'Lucida Handwriting';
+    color: darkred;
 }
 
 .images {
